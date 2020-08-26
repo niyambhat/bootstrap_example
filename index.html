@@ -10,6 +10,10 @@
 <link href="css/style.css" rel="stylesheet" type="text/css"> 
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
 <link href="css/animate.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/7aa5b4f332.js" crossorigin="anonymous"></script>
+
+
+
  
 <!--[if lt IE 9]>
     <script src="js/respond-1.1.0.min.js"></script>
@@ -44,14 +48,8 @@
              </div><img class="" src="img/slide 4.png" alt=""></div>
     </div>
     <!-- Carousel nav -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
 
 </div>
 
@@ -114,38 +112,39 @@
 <section  id="service">
   <div class="container">
     <h2>My Skills</h2>
-	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+	<h6>Mobile first design. </h6>
     <div class="service_wrapper">
       <div class="row">
         <div class="col-md-3">
-		<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-tree"></i></span> </div>
+		<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fas fa-mobile"></i></span> </div>
           <div class="service_block">
             
-            <h3 class="animated fadeInUp wow">Photography</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <h3 class="animated fadeInUp wow">Front-end</h3>
+            <p class="animated fadeInDown wow">Mobile first design forcuse on top notch user experinence</p>
           </div>
         </div>
         <div class="col-md-3"> 
-		<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-crosshairs"></i></span> </div> 
+		<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fas fa-quidditch"></i></span> </div> 
 		<div class="service_block">
             <h3 class="animated fadeInUp wow">Editing Skills</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+            <p class="animated fadeInDown wow">Pixel perfect Front End UI  </p>
           </div>
         </div>
         <div class="col-md-3">
-		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-building-o "></i></span> </div>
+		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fas fa-bolt"></i></i></span> </div>
           <div class="service_block">
             
-            <h3 class="animated fadeInUp wow">Lighting</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+            <h3 class="animated fadeInUp wow">Fast</h3>
+            <p class="animated fadeInDown wow">Lightning fast prototyping and development
+              .  </p>
           </div>
         </div>
 		  <div class="col-md-3">
-		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-twitter"></i></span> </div>
+		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="far fa-grin-squint"></i></span> </div>
           <div class="service_block">
             
-            <h3 class="animated fadeInUp wow">Dimensions</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+            <h3 class="animated fadeInUp wow">Fun</h3>
+            <p class="animated fadeInDown wow">Most important, fun to work with.  </p>
           </div>
         </div>
       </div> 
@@ -164,7 +163,7 @@
     <!-- Title -->
     <div class="section-title">
       <h2>Portfolio</h2>
-	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+	<h6>Get to know me, and check out some of my work samples.</h6>
 	  
     </div>
     <!--/Title --> 
@@ -182,18 +181,17 @@
         <li><a id="all" href="#" data-filter="*" class="active">
           <h5>All</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".nature">
-          <h5>People</h5>
+        <li><a class="" href="#" data-filter=".Technology">
+          <h5>Technology</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".wildlife">
-          <h5>Animal</h5>
+        <li><a class="" href="#" data-filter=".Personality">
+          <h5>Personality</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".citylife">
-          <h5>Nature</h5>
+        <li><a class="" href="#" data-filter=".Hide">
+          <h5>Hide</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".animals">
-          <h5>Sea Scape</h5>
-          </a></li> 
+
+          
       </ul>
     </div>
     <!--/Portfolio Filters --> 
@@ -201,15 +199,15 @@
     <!-- Portfolio Wrapper -->
     <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  
       <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   animals isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   Technology isotope-item effect-oscar">
 	   
         <div class="portfolio_img"> 
-		<img src="img/portfolio_pic1.jpg"  alt="Portfolio 1"> </div> 
+		<img src="img/pics/stacks.png"  alt="Portfolio 1"> </div> 
 			<figcaption>		
 				<div>
-				  <a href="img/portfolio_pic1.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  <a href="img/pics/stacks.png" class="fancybox"> 
+            <h2>Front<span> End</span></h2>
+            <p>I am a Front End Dev.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -217,13 +215,13 @@
       <!--/Portfolio Item --> 
       
       <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  Technology isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/pics/Robotics.png" alt="Portfolio 1"> </div>
         	<figcaption>		
 				<div>
-				  <a href="img/portfolio_pic2.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  <a href="img/pics/Robotics.png" class="fancybox"> 
+					<h2>robot<span>ics</span></h2>
+							<p>I am involved in Robotics.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -231,13 +229,13 @@
       <!--/Portfolio Item --> 
       
       <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife  isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four Technology  isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/pics/app.png" alt="Portfolio 1"> </div>
        <figcaption>		
 				<div>
-				  <a href="img/portfolio_pic3.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  <a href="img/pics/app.png" class="fancybox"> 
+					<h2>Appli<span>cation</span></h2>
+							<p>I can build front end applications..</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -245,13 +243,13 @@
       <!--/Portfolio Item--> 
       
       <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  citylife  nature web isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  citylife  Technology web isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/pics/game.png" alt="Portfolio 1"> </div>
          <figcaption>		
 				<div>
-				  <a href="img/portfolio_pic4.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  <a href="img/pics/game.png" class="fancybox"> 
+					<h2>Challanges</span></h2>
+							<p>I love takng challanges.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -259,13 +257,13 @@
       <!-- Portfolio Item --> 
       
       <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  Personality isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/pics/chironix.png" alt="Portfolio 1"> </div>
        <figcaption>		
 				<div>
-				  <a href="img/portfolio_pic5.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  <a href="img/pics/chironix.png" class="fancybox"> 
+					<h2>Train<span>ing</span></h2>
+							<p>I ve been trained by industry experts.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -273,13 +271,13 @@
       <!--/Portfolio Item --> 
       
       <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four Personality isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/pics/a.png" alt="Portfolio 1"> </div>
        <figcaption>		
 				<div>
-				  <a href="img/portfolio_pic6.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  <a href="img/pics/a.png" class="fancybox"> 
+					<h2>Photo<span>graphy</span></h2>
+							<p>I love photography.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -287,13 +285,13 @@
       <!--/Portfolio Item --> 
       
       <!-- Portfolio Item  -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife web isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>       
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four Personality web isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/pics/band.png" alt="Portfolio 1"> </div>       
        <figcaption>		
 				<div>
-				  <a href="img/portfolio_pic7.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  <a href="img/pics/band.png" class="fancybox"> 
+					<h2>Rock<span>Musician</span></h2>
+							<p>I play for a rock band.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -301,13 +299,13 @@
       <!--/Portfolio Item --> 
       
       <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   citylife isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>       
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   Personality isotope-item effect-oscar">
+        <div class="portfolio_img"> <img src="img/pics/web.png" alt="Portfolio 1"> </div>       
       <figcaption>		
 				<div>
-				  <a href="img/portfolio_pic8.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  <a href="img/pics/web.png" class="fancybox"> 
+					<h2>Web <span>Tech</span></h2>
+							<p>I build web sites.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -336,7 +334,7 @@
     <section id="news" class="white-bg padding-top-bottom">
 	 <div class="section-title">
       <h2>Acivements</h2>
-	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+	<h6>My story</h6>
 	  
     </div>
     	<div class="container">
@@ -363,7 +361,7 @@
 								<p>May</p> 
 							</div>
 							<h2 class="news-title">Chironix</h2> 
-							<span>Robotics | AI | Machine Vision</span>
+							<span>Robotics | Software | Machine Learning</span>
 							<p>May 2020 – Aug 2020 Robotics Trainee</p>
 							<a class="read-more" href="#">Read More</a>
 						</div>
@@ -451,7 +449,7 @@
     </section>
   </div>
   <div class="container">
-    <div class="footer_bottom"><span>Copyright © reserved </div>
+    <div class="footer_bottom"><span> Copyright © reserved Built by Niyam, Supported by webthemz</div>
   </div>
 </footer>
 
